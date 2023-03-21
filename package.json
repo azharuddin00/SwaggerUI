@@ -1,0 +1,29 @@
+{
+  "name": "swaggerui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy_chrome": "cypress run --browser chrome",
+    "cy_chrome_headed": "cypress run --browser chrome --headed",
+    "cy_firefox": "cypress run --browser firefox",
+    "cy_firefox_headed": "cypress run --browser firefox --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "13.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.1.5",
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "10.9.0",
+    "cypress-iframe": "1.0.1",
+    "esbuild": "0.15.16",
+    "mocha": "10.1.0",
+    "mochawesome": "7.1.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "filterSpecs": true,
+    "omitFiltered": true
+  },
+  "description": "This framework is configured for Swagger UI"
+}
