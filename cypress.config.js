@@ -21,7 +21,7 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   e2e: {
     baseUrl: "http://localhost:4200/festivals",
-    specPattern: "cypress/e2e/**/*.js",
+    specPattern: "cypress/e2e/**/*.feature",
     defaultCommandTimeout: 35000,
     pageLoadTimeout: 40000,
     reporter: 'mochawesome',
